@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.small-row{
+ width: 100px;
+}
+.jlogo{
+    margin-top: 20px;
+    padding-left: 10px;
+    width: 90%;
+}
+.shimg{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 50%;
+}
+.shaddress{
+    margin-left: 70px;
+    color: #fff;
+}
+.secondp{
+    font-size: 15px;
+    margin-top: -20px;
+    font-weight: 200;
+    margin-left: -10px;
+}
+.profiles{
+    margin-left: 60px;
+    color: #fff;
+    font-weight: 300;
+}
+.profiles h6{
+    padding-top: 10px;
+}
+.profiles h6:hover{
+    width: 200px;
+    height: 30px;
+    background-color: #fff;
+    padding: 15px 15px 35px;
+    color: #000;
+    border-radius: 10px 45px 20px;
+}
+.watsapp{
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+.jobsheading{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.tags-id{
+    top: 25px;
+    position: absolute;
+    right: 10px;
+    display: flex;
+}
+.twoimgs{
+    display: flex;
+}
+.profilelastr{
+    margin-left: 40px;
+}
+.profilelastr img{
+    width: 70%;
+    margin-left: -40px;
+    margin-top: 10px;
+}
+.finsh{
+    position: absolute;
+    bottom: 20px;
+    right: 110px;
+}
+#hidden{
+    /* display: none; */
+    background-color: #689CD3;
+    width:10%;
+    height: 30px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    display: none;
+}
+.homepage{
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+}
+.homepage button{
+    border: none;
+    background: linear-gradient(to right, #474948,
+    #49A5AA, #49A5AA, #353b3b);;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+/*------------- for mobile----------- */
+@media only screen and (max-width: 1230px){
+    .col-9{
+        display: none;
+    }
+    .col-3{
+        margin-left: 40px;
+    }
+    .watsapp{
+        margin-left: 30px;
+    }
+    #hidden{
+   display: flex;    
+   position: absolute;
+   top: 30px;
+   right: 10px;
+   width:25%;
+   padding-left: 10px;
+   height: 30px;
+}
+
+}
